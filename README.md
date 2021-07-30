@@ -6,4 +6,4 @@ Usisng numpy-stl package, extracts required properties to calculate dimensions o
 
 ## Usage
 On python 3 or above, type the following command in shell:
-calc.py <stl file path>
+`calc.py <stl file path>`

@@ -23,7 +23,7 @@ l = maxy - miny
 h = maxz - minz
 
 # Calculate volume of models
-volume, cog, inertia = stl_file.get_mass_properties()
+volume = stl_file.get_mass_properties()[0]
 
 print(f"Width = {w}")
 print(f"Length = {l}")
